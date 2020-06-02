@@ -1,0 +1,58 @@
+server:
+  port: 9000
+
+#spring:
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      database: app1
+#
+#  datasource:
+#    url:
+#eventuatelocal:
+#  cdc:
+#    leadership:
+#      lock:
+spring:
+  application:
+    name: affiliate
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  mvc:
+    servlet:
+      path: /
+  #  quartz:
+  #    job-store-type: jdbc
+  #    jdbc:
+  #      initialize-schema: never
+  #    properties:
+  #      org:
+  #        quartz:
+  #          scheduler:
+  #            instanceId: AUTO
+  #          dataSource:
+  #            driver: com.mysql.cj.jdbc.Driver
+  #            URL: jdbc:mysql://125.212.226.145:3306/dungtt
+  #            user: ghdc
+  #            password: ghdc@123
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://125.212.226.145:3306/dungtt
+    username: ghdc
+    password: ghdc@123
+#org:
+#  quartz:
+#    threadPool:
+#      class: org.quartz.simpl.SimpleThreadPool
+#      threadCount: 1
+#    dataSource:
+#      quartzDataSource:
+#        driver: com.mysql.jdbc.Driver
+#        URL: jdbc:mysql://125.212.226.145:3306/dungtt
+#        user: ghdc
+#        password: ghdc@123
+
+
+

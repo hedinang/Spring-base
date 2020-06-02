@@ -1,0 +1,5 @@
+<int-ip:udp-outbound-channel-adapter id="udpOut"
+                                     host="somehost"
+                                     port="11111"
+                                     multicast="false"
+                                     channel="exampleChannel"/>
